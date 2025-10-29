@@ -1,11 +1,12 @@
-import { SomeComponent } from './components/SomeComponent'
-import './index.css'
+import { ProductsListView } from './components/ProductsListView'
 import { MainLayout } from './layout/MainLayout'
+
+import './index.css'
 
 function App() {
   return (
     <MainLayout>
-      <SomeComponent />
+      <ProductsListView />
     </MainLayout>
   )
 }

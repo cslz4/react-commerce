@@ -13,7 +13,7 @@ export function MainLayout({ children }: MainLayoutProps) {
     <div className="bg-white border border-border w-screen h-screen">
       <Header />
 
-      <div>
+      <div className="p-4">
         {children}
       </div>
     </div>
